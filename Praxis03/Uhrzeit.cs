@@ -42,7 +42,16 @@ days         = totalHours /24;
 
 //Ausgabe
 
-Console.WriteLine($"Converted to format d:hh:mm:ss {days} Tag(e) {hours:00}:{minutes:00}:{seconds:00}"); 
+if (days == 1)
+    {
+        Console.WriteLine($"Converted to format d:hh:mm:ss {days} Tag {hours:00}:{minutes:00}:{seconds:00}"); 
+
+    }
+    else
+    {
+        Console.WriteLine($"Converted to format d:hh:mm:ss {days} Tage {hours:00}:{minutes:00}:{seconds:00}"); 
+
+    }
 
 
 Console.ReadLine();
