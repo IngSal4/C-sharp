@@ -51,3 +51,4 @@ Console.WriteLine($"+{hours2,7}:{minutes2:00}");
 Console.WriteLine($"={totalHours,7}:{minutes:00}");
 
 Console.ReadLine();
+
